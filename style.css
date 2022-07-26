@@ -85,7 +85,8 @@ height: 100%;
 }
 .learn{
   font-weight:bold;
-  font-size:40px;
+  font-size:35px;
+  padding-left: 110px;
 }
 .itm3{
   display: flex;
@@ -123,10 +124,16 @@ height: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  text-align: center;
+  text-align: left;
   position: relative;
-  margin-bottom: -15em;
-  font-size: 20px;
+  margin-bottom: -12em;
+  /* padding-left: 30px; */
+
+}
+.titre{
+  text-align: center;
+  padding-left: 10px;
+  font-size: 35px;
 
 }
 
@@ -139,10 +146,14 @@ height: 100%;
   margin-right:250px;
 }
 .p1{
-  font-family:serif;
-  font-size: 25px;
-  margin: 15px;
-  padding: auto;
+  font-family:Verdana,Tahoma;
+  font-size: 17px;
+  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 30px
+ 
+  
 }
 .client{
   color:gray;
